@@ -1,6 +1,6 @@
 import { defineConfig } from "vite"
 import checker from "vite-plugin-checker"
-import glob from "glob"
+import { glob } from "glob"
 
 export default defineConfig({
   plugins: [
